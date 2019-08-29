@@ -1,0 +1,74 @@
+body { font-size: 14px;font-family: "Arial";line-height: 20px; }
+.product-list { margin-top: 20px;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;max-height: 75px; }
+.product-list h4 {width: 20%;margin: 20px 0px;display: inline-block; }
+.product-list h3 { margin: 20px 0px; }
+.product-list h3 button{ cursor: pointer;background: none;border: none; }
+.product-list .product-message { width:60%;margin: 20px 0px;display: inline-block;text-align: center; }
+.product-list .product-message p { padding: 8px;color: #ffffff;background: #7EC472;display: inline;text-align: center;border-radius: 5px;cursor: pointer; }
+.product-list a.btn { margin: 15px 20px 20px 0px;background: #249DF1;border: #249DF1; position: relative; float: right; }
+.product-list a.btn .badge { position: absolute;top: -6px; }
+.product-body { margin-bottom:30px; }
+.product_item { margin-top:20px; }
+.product_item .image_text_centered { border: 1px solid #ddd;}
+.product_item .image_text_centered img { padding: 52px;width: 100%; }
+.product_item .image_text_centered .image { position: relative; }
+.product_item .image_text_centered label { background: #7EC472;padding: 20px;position: absolute;bottom: 120px;font-size: 12px;color: #ffffff; }
+.purchase-region { background: #d8d8d8; }
+.purchase-region { padding: 5px 0 20px 5px; }
+.purchase-region .cart-action,.purchase-region .price { display: inline-block; }
+.purchase-region .cart-action,.purchase-region .price strike {color: red; margin-right: 5px;}
+.purchase-region .cart-action,.purchase-region .price span {color: #000000;}
+.purchase-region .cart-action { float: right; margin-right: 5px; }
+.purchase-region .cart-action button {background: #d8d8d8;color:#007bff;border: 1px solid #007bff;}
+.purchase-region .cart-action button:hover { color: #000000; border: 1px solid #000000;background: #ffffff; }
+.cart_items { padding: 0px 5px; border: 1px solid #ddd; }
+.cart_items img { height:30px; width:30px; display: inline-block; margin-bottom: 1px; }
+.cart_items h4 { display: inline-block; vertical-align: middle; }
+.cart_items button { margin-top: 10px; }
+.product-list_items { margin-bottom: 10px; }
+.product-list_items .updateQtyBox { height: 40px;width: 20%;text-align: center; min-width: 35px; }
+.product-list_items div{ max-height: 40px; }
+.product-list_items .col-xs-6 { padding: 0px;}
+.product-list_items .col-xs-3 { text-align: center; padding: 0px;}
+.product-list_items .col-xs-3:last-child { text-align: center; }
+.product-list_items:last-child { border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+.cartHeader div{ border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin-bottom: 10px; padding: 0px; }
+.cartHeader .col-sm-3.col-xs-3.col-md-3 { text-align: center; }
+.product-list_border { padding: 0 15px; margin: 10px 0px;}
+.decrement-btn ,.increment-btn { font-size: 20px; background: none; border: none; }
+.right_cont{ border: 1px solid #ddd; padding: 0px;}
+.right_cont .shopping ul { margin: 0px; padding: 0px; }
+.right_cont .shopping ul li{ list-style: none;padding: 10px 10px 0px 10px; }
+.right_cont .shopping ul li span{ color:#000000; }
+.shopping_inline span{width: 32%; display: inline-block; font-size: 12px;font-weight: normal; }
+.shopping_inline span.totalQty,.shopping_inline .shopping_total_price,.shopping_inline .shopping_total_orde { width: auto; }
+.right_cont .shopping ul li:last-child { padding: 5px 10px; background: #ddd; }
+/*common-class names*/
+.text-center{ text-align: center; }
+.text-right{ text-align: right; }
+.text-left{ text-align: left; }
+
+@media screen and  (max-device-width: 991px){
+	.product_item .image_text_centered label {bottom: 165px;}
+}
+@media screen and  (min-device-width: 992px) and (max-device-width: 1025px){
+	.product_item .image_text_centered label {bottom: 90px;}
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape){
+	.product_item .image_text_centered label {bottom: 270px;}
+}
+@media screen and  (min-device-width: 420px) and (max-device-width: 767px){
+  .product-list_items .col-xs-3 { text-align: center; }
+}
+
+@media screen and  (max-device-width: 767px){
+  .product-list .product-message { width: 40%; }
+  .right_cont { margin-left: 0px; }
+  .product-list_border{ padding: 0px; }
+}
+@media screen and  (min-device-width: 768px){
+	.right_cont{ margin-left: 20px; }
+}
+@media screen and  (min-width: 375px) and (max-width: 600px){
+	  .product-list_items .updateQtyBox {min-width: 25px;}
+}
