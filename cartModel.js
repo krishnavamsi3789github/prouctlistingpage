@@ -1,7 +1,8 @@
 var cartModel = [];
 
 var getCartData = new Promise(function(resolve, reject) {
-  	  var cartAPI = "https://api.myjson.com/bins/qhnfp";
+  	//  var cartAPI = "https://api.myjson.com/bins/qhnfp";
+	 var cartAPI = "https://raw.githubusercontent.com/krishnavamsi3789github/prouctlistingpage/master/data/cart.json";
 	  $.getJSON( cartAPI, {
 		format: "json"
 	  }).done(function( data ) {
