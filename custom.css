@@ -12,7 +12,7 @@ body { font-size: 14px;font-family: "Arial";line-height: 20px; }
 .product_item .image_text_centered { border: 1px solid #ddd;}
 .product_item .image_text_centered img { padding: 52px;width: 100%; }
 .product_item .image_text_centered .image { position: relative; }
-.product_item .image_text_centered label { background: #7EC472;padding: 20px;position: absolute;bottom: 120px;font-size: 12px;color: #ffffff; }
+.product_item .image_text_centered label { background: #7EC472;padding: 20px;position: absolute;bottom: 75px;font-size: 12px;color: #ffffff; }
 .purchase-region { background: #d8d8d8; }
 .purchase-region { padding: 5px 0 20px 5px; }
 .purchase-region .cart-action,.purchase-region .price { display: inline-block; }
